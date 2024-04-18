@@ -24,17 +24,46 @@ byte SumaDigImpares(Cardinal x)
 			 s = x;
 		else
 			s = 0;
-	}else
-		{
+	}else   //Caso general
+	{
 			s = SumaDigImpares(x/10);
 			if (x % 2 == 1) 
 				s = s +  x%10;
-		}
+	}
 	return s;
 }
 void __fastcall TForm1::Sumadedigitosimpares1Click(TObject *Sender)
 {
 	Edit2->Text = SumaDigImpares(StrToInt(Edit1->Text));
+}
+//---------------------------------------------------------------------------
+
+byte Suma(Cardinal x)            //Suma de digitos de un numero
+{
+	byte s;
+	if (x <10)
+		s = x;
+	else
+		s = Suma(x/10) + x%10;
+ return s;
+// return s = (x < 10) ? x : Suma(x/10) + x%10;  "Ternario"
+}
+
+void __fastcall TForm1::Sumadedigitosdeunnumero1Click(TObject *Sender)
+{
+    Edit2->Text = Suma(StrToInt(Edit1->Text));
+}
+//---------------------------------------------------------------------------
+byte Factorial(Cardinal n)
+{
+	Cardinal s;
+	return s = (n < 1) ?  1 : n * Factorial(n-1);
+	// Se esta usando el operador "Ternario" == if "Simplificado"
+	//return variable = "Condicion" ? Valor1 : Valor2
+}
+void __fastcall TForm1::Facotrial1Click(TObject *Sender)
+{
+	Edit2->Text = Factorial(StrToInt(Edit1->Text));
 }
 //---------------------------------------------------------------------------
 

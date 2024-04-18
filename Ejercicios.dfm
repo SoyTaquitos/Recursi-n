@@ -45,6 +45,14 @@ object Form1: TForm1
         Caption = 'Suma de digitos impares'
         OnClick = Sumadedigitosimpares1Click
       end
+      object Sumadedigitosdeunnumero1: TMenuItem
+        Caption = 'Suma de digitos de un numero'
+        OnClick = Sumadedigitosdeunnumero1Click
+      end
+      object Facotrial1: TMenuItem
+        Caption = 'Factorial'
+        OnClick = Facotrial1Click
+      end
     end
     object Numeros2: TMenuItem
       Caption = 'Cadenas'

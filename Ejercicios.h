@@ -19,7 +19,11 @@ __published:	// IDE-managed Components
 	TMenuItem *Numeros1;
 	TMenuItem *Numeros2;
 	TMenuItem *Sumadedigitosimpares1;
+	TMenuItem *Sumadedigitosdeunnumero1;
+	TMenuItem *Facotrial1;
 	void __fastcall Sumadedigitosimpares1Click(TObject *Sender);
+	void __fastcall Sumadedigitosdeunnumero1Click(TObject *Sender);
+	void __fastcall Facotrial1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
