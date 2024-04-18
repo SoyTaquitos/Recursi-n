@@ -14,9 +14,12 @@ class TForm1 : public TForm
 __published:	// IDE-managed Components
 	TMainMenu *MainMenu1;
 	TButton *Button1;
-	TButton *Button2;
 	TEdit *Edit1;
 	TEdit *Edit2;
+	TMenuItem *Numeros1;
+	TMenuItem *Numeros2;
+	TMenuItem *Sumadedigitosimpares1;
+	void __fastcall Sumadedigitosimpares1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
