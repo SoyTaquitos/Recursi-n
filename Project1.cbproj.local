@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2024/04/17 17:55:07.000.652,=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.cpp</Transaction>
     <Transaction>2024/04/17 17:55:07.000.386,=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Project1PCH1.h</Transaction>
-    <Transaction>2024/04/17 17:55:54.000.835,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.dfm=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.dfm</Transaction>
-    <Transaction>2024/04/17 17:55:54.000.835,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.cpp=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.cpp</Transaction>
-    <Transaction>2024/04/17 17:55:54.000.835,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.h=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.h</Transaction>
-    <Transaction>2024/04/17 17:56:30.000.274,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Project1PCH1.h=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Project1PCH1.h</Transaction>
-    <Transaction>2024/04/17 17:56:30.000.282,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Project1.cbproj=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Project1.cbproj</Transaction>
+    <Transaction>2024/04/17 17:55:07.000.652,=D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.cpp</Transaction>
+    <Transaction>2024/04/17 17:55:54.000.835,D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.dfm=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.dfm</Transaction>
+    <Transaction>2024/04/17 17:55:54.000.835,D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.cpp=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.cpp</Transaction>
+    <Transaction>2024/04/17 17:55:54.000.835,D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Unit1.h=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.h</Transaction>
+    <Transaction>2024/04/17 17:56:30.000.274,D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Project1PCH1.h=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Project1PCH1.h</Transaction>
+    <Transaction>2024/04/17 17:56:30.000.282,D:\1Cosas de Matteo\Proyectos Embarcadero\C++\Project1.cbproj=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Project1.cbproj</Transaction>
+    <Transaction>2024/04/18 14:33:06.018,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Ejercicios.dfm=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.dfm</Transaction>
+    <Transaction>2024/04/18 14:33:06.018,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Ejercicios.cpp=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.cpp</Transaction>
+    <Transaction>2024/04/18 14:33:06.018,D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Ejercicios.h=D:\1Cosas de Matteo\Proyectos Embarcadero\Recursión\Unit1.h</Transaction>
   </Transactions>
 </BorlandProject>
