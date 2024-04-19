@@ -36,6 +36,28 @@ object Form1: TForm1
     TabOrder = 2
     Text = 'Edit2'
   end
+  object StringGrid1: TStringGrid
+    Left = 48
+    Top = 209
+    Width = 673
+    Height = 33
+    ColCount = 10
+    FixedCols = 0
+    FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goFixedRowDefAlign]
+    TabOrder = 3
+    ColWidths = (
+      64
+      64
+      64
+      64
+      64
+      64
+      64
+      64
+      64
+      64)
+  end
   object MainMenu1: TMainMenu
     Left = 56
     Top = 80
@@ -53,9 +75,24 @@ object Form1: TForm1
         Caption = 'Factorial'
         OnClick = Facotrial1Click
       end
+      object ContarCantidaddigitosparesantesdeunimpar1: TMenuItem
+        Caption = 'Contar Cantidad digitos pares antes de un impar'
+        OnClick = ContarCantidaddigitosparesantesdeunimpar1Click
+      end
     end
     object Numeros2: TMenuItem
       Caption = 'Cadenas'
+      object Cargarnumeros1: TMenuItem
+        Caption = 'Cargar numeros'
+        OnClick = Cargarnumeros1Click
+      end
+    end
+    object Vectores1: TMenuItem
+      Caption = 'Vectores'
+      object Vectores2: TMenuItem
+        Caption = 'Cargar numeros descentes'
+        OnClick = Vectores2Click
+      end
     end
   end
 end
